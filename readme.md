@@ -1,4 +1,4 @@
-# Sample multicorn postres docker
+# Sample PostgreSQL Docker with multicorn FDW
 This is tiny sample for my medium post https://medium.com/@CzechJiri/making-tableau-awesome-r-713d9c6c5ee8#.k2h0n2dy5
 
 
