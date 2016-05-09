@@ -3,7 +3,7 @@ This is tiny sample for my medium post https://medium.com/@CzechJiri/making-tabl
 
 
 ## Setup Docker
-clone this repo, install docker then simple run this from command line
+clone this repo, install docker then simply run this from command line
 
 ```
 docker build -t multicorn .
