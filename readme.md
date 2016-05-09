@@ -11,7 +11,7 @@ docker run --name multicorn -d -i -p 5432:5432 multicorn
 ```
 
 ## Run Tableau
-then point tableau to
+use PosgreSQL driver and point Tableau to
 
 ```
 host: localhost
@@ -24,7 +24,8 @@ password: test123
 
 ## sample SQL
 here is sample SQL
-```
+
+```sql
    select rank() over(partition by (date_trunc('hour', "pubDate")) order by "pubDate" desc), 
           "pubDate", 
           title 
