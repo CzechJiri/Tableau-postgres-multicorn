@@ -6,7 +6,7 @@ This is tiny sample for my medium post https://medium.com/@CzechJiri/making-tabl
 clone this repo, install docker then simply run this from command line
 
 ```
-docker run --name multicorn -d -i -p 5432:5432 czechjiri/tableau-postgres-multicorn
+docker run --name postgres -d -i -p 5432:5432 czechjiri/tableau-postgres-multicorn
 ```
 
 ## Run Tableau
