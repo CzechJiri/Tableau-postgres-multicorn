@@ -3,7 +3,7 @@ This is tiny sample for my medium post https://medium.com/@CzechJiri/making-tabl
 
 
 ## Setup Docker
-clone this repo, install docker then simply run this from command line
+install docker then simply run use this pre-build image
 
 ```
 docker run --name postgres -d -i -p 5432:5432 czechjiri/tableau-postgres-multicorn
